@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "waterphysics",
+  "version": "${version}",
+  "name": "Water Physics",
+  "description": "Partikel air realistis: /water ball <angka>, Water Emitter, air yang mengendap jadi blok.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.waterphysics.WaterMod"],
+    "client": ["com.waterphysics.client.WaterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
